@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="pao">
+      <UniqueIdentifier>{0d52f959-8dc0-42ca-8b71-d2e97cec9de3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pao\DX11">
+      <UniqueIdentifier>{7e820a45-d4b0-4b95-82c1-6e5f9eac927f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pao\Windows">
+      <UniqueIdentifier>{0071284b-28d3-4f1a-be03-448850086b70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pao\DX11\Shader">
+      <UniqueIdentifier>{c6325aa5-514e-4b2a-ad0f-4eb5ab622143}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common">
+      <UniqueIdentifier>{37ab8380-0650-40ec-883d-aabe9fccecfd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="ex3_triangle.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pao\DX11\FrameworkDX11.h">
+      <Filter>pao\DX11</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pao\Windows\FrameworkWindows.h">
+      <Filter>pao\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pao\Windows\WindowProc.h">
+      <Filter>pao\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pao\DX11\DX11base.h">
+      <Filter>pao\DX11</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\cFileWrite.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\crc32.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\Strbank.h">
+      <Filter>common</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="ex3_triangle.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pao\DX11\FrameworkDX11.cpp">
+      <Filter>pao\DX11</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pao\Windows\FrameworkWindows.cpp">
+      <Filter>pao\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pao\Windows\WindowProc.cpp">
+      <Filter>pao\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pao\DX11\DX11base.cpp">
+      <Filter>pao\DX11</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\cFileWrite.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\crc32.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\Strbank.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ex3_triangle.rc">
+      <Filter>リソース ファイル</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="ex3_triangle.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="..\..\pao\DX11\Shader\simple.hlsl">
+      <Filter>pao\DX11\Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\pao\DX11\Shader\vs_simple.hlsl">
+      <Filter>pao\DX11\Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\pao\DX11\Shader\ps_simple.hlsl">
+      <Filter>pao\DX11\Shader</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>

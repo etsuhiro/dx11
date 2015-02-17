@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="common">
+      <UniqueIdentifier>{df6a14f1-52a1-4eae-9ab8-d84690807eac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pao">
+      <UniqueIdentifier>{2c7b5c74-5071-4f54-af76-60f1e955028a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pao\DX11">
+      <UniqueIdentifier>{fb8ae0c6-ab1a-4f82-bc31-3f044216dc04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pao\DX11\Shader">
+      <UniqueIdentifier>{b19c7439-e241-4a30-a338-080ac98f2220}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pao\Windows">
+      <UniqueIdentifier>{415ac805-57c3-47f3-8c15-72aeb466c4af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pao\DX11\DirectXTex">
+      <UniqueIdentifier>{feee720c-057e-408a-9abc-9e36b09c07f3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="ex4_texture.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\cFileWrite.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\crc32.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\Strbank.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pao\DX11\DX11base.h">
+      <Filter>pao\DX11</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pao\DX11\FrameworkDX11.h">
+      <Filter>pao\DX11</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pao\Windows\FrameworkWindows.h">
+      <Filter>pao\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pao\Windows\WindowProc.h">
+      <Filter>pao\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pao\DX11\DirectXTex\WICTextureLoader.h">
+      <Filter>pao\DX11\DirectXTex</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="ex4_texture.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\cFileWrite.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\crc32.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\Strbank.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pao\DX11\DX11base.cpp">
+      <Filter>pao\DX11</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pao\DX11\FrameworkDX11.cpp">
+      <Filter>pao\DX11</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pao\Windows\FrameworkWindows.cpp">
+      <Filter>pao\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pao\Windows\WindowProc.cpp">
+      <Filter>pao\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pao\DX11\DirectXTex\WICTextureLoader.cpp">
+      <Filter>pao\DX11\DirectXTex</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ex4_texture.rc">
+      <Filter>リソース ファイル</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="ex4_texture.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="..\..\pao\DX11\Shader\ps_texture.hlsl">
+      <Filter>pao\DX11\Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\pao\DX11\Shader\vs_texture.hlsl">
+      <Filter>pao\DX11\Shader</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
